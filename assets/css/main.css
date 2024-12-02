@@ -2759,12 +2759,13 @@ section,
 @media (max-width:767px) {
   .boat-item {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: none;
+    grid-template-rows: 1fr 1fr !important;
 }
 .boat-summary .sm-d {
-  display: grid
-;
+  display: grid;
   grid-template-rows: 1fr;
+  grid-template-columns: none;
   gap: 11px;
   font-size: 14px;
   margin-bottom: 20px;
