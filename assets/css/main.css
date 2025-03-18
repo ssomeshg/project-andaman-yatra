@@ -2825,3 +2825,56 @@ section,
   padding: 10px 18px;
   border-radius: 2px;
 }
+
+/* Package View CSS */
+.package-bg{
+  background-image: url(../img/bread-camp-3.jpg);
+  background-attachment: fixed;
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border-radius: 500px;
+  box-shadow:2px 2px 10px #00000033;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-shadow: 1px 1px 10px #fff;
+}
+.package-bg::after{
+  content: ' ';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+  background-color: var(--accent-color);
+}
+.package-bg h1{
+  font-size: 70px;
+}
+.package-view-qw{
+  position: relative;
+  min-height: max-content;
+  height: 100%;
+  transform: translateY(-100px);
+  padding: 0;
+  padding: 20px 0;
+}
+.package-view-as{
+  /* position: absolute; */
+  /* bottom: -50%; */
+ 
+  min-height: max-content;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  box-shadow:2px -4px 10px #00000042;
+}
